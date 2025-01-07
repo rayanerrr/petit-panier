@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petit Panier - Épicerie Locale</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- En-tête -->
+    <header>
+        <div class="container">
+            <h1 class="logo">Petit Panier</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Accueil</a></li>
+                    <li><a href="#produits">Produits</a></li>
+                    <li><a href="#boucherie">Boucherie</a></li>
+                    <li><a href="#grillades">Coin Grillades</a></li>
+                    <li><a href="#about">À Propos</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Bannière -->
+    <section id="home" class="banner">
+        <h2>Fraîcheur et qualité près de chez vous !</h2>
+        <p>Découvrez des produits locaux, une boucherie artisanale et des grillades savoureuses.</p>
+        <a href="#produits" class="btn">Voir nos produits</a>
+    </section>
+
+    <!-- Produits -->
+    <section id="produits" class="section">
+        <h2>Nos Produits</h2>
+        <div class="products-grid">
+            <div class="product">
+                <img src="images/fruits.jpg" alt="Fruits et légumes">
+                <h3>Fruits & Légumes</h3>
+                <p>Des produits frais et locaux pour votre quotidien.</p>
+            </div>
+            <div class="product">
+                <img src="images/epicerie.jpg" alt="Épicerie fine">
+                <h3>Épicerie Fine</h3>
+                <p>Un large choix d’aliments de qualité.</p>
+            </div>
+            <div class="product">
+                <img src="images/laitiers.jpg" alt="Produits laitiers">
+                <h3>Produits Laitiers</h3>
+                <p>Crèmes, fromages et bien plus encore.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Boucherie -->
+    <section id="boucherie" class="section">
+        <h2>Boucherie Artisanale</h2>
+        <p>Des viandes soigneusement sélectionnées pour des plats savoureux.</p>
+        <img src="images/boucherie.jpg" alt="Boucherie Artisanale">
+    </section>
+
+    <!-- Coin Grillades -->
+    <section id="grillades" class="section">
+        <h2>Coin Grillades</h2>
+        <p>Savourez nos grillades préparées avec générosité.</p>
+        <img src="images/grillades.jpg" alt="Coin Grillades">
+    </section>
+
+    <!-- À Propos -->
+    <section id="about" class="section">
+        <h2>À Propos de Petit Panier</h2>
+        <p>Votre satisfaction est notre priorité. Nous vous accueillons avec le sourire dans un espace chaleureux et convivial.</p>
+        <img src="images/about.jpg" alt="À Propos">
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+        <h2>Contactez-nous</h2>
+        <form>
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">E-mail :</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <!-- Pied de page -->
+    <footer>
+        <p>&copy; 2025 Petit Panier. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
